@@ -36,15 +36,7 @@
     text-align: left;
   }
   
-  /* Tambahkan CSS untuk header-right */
-  .header-right{
-    display:none;
-  }
-  
-  /* Tambahkan CSS untuk menu-icon */
-  .menu-icon{
-    display:block;
-  }
+ 
   
   .top-wrapper h1 {
     font-size: 24px;
