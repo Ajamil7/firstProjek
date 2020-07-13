@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D INNOVA</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="image/logo.jpeg">
+        </div>
+        <!-- Tambahkan ikon menu disini -->
+        <div class="header-left"></div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="#A">About Us</a>
+          <a href="#B">Our Serve</a>
+          <a href="#C">Contact Me</a>
+        </div>
+      </div>
+    </header>
+     <div class="top-wrapper" id="A">
+      <div class="container">
+        <h1>3D INNOVA</h1>
+        <h1>YOUR INNOVASION 3D PRINTER PARTNER</h1>
+        <p>We serve 3d print for your problem, please contact us for the solution</p>
+        <p>You can consutation for your projek, prototype, or making your product</p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">Whatsapp Me</a>
+          <p>or</p>
+          <a href="#" class="btn facebook">Follow our <span class="fa fa-facebook"></span> Facebook</a>
+          <a href="#" class="btn twitter">Follow our <span class="fa fa-twitter"></span> Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper" id="B">
+      <div class="container">
+        <div class="heading">
+          <h2>We Serve:</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/2.jpeg">
+               <p>Designing</p>
+            </div>
+             <p class="text-contents">We can making design for you</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/1.jpeg">
+              <p>Printing Part by Design</p>
+            </div>
+            <p class="text-contents">We serve printing 3D for you, with variant quality</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/3.jpeg">
+              <p>Prototype</p>
+            </div>
+            <p class="text-contents">We serve 3D printed part for your prototype</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/4.jpeg">
+              <p>Assembly Part</p>
+            </div>
+            <p class="text-contents">We can make assembly part for yout project</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="image/S1.jpeg" style="width: 100%;">
+  <div class="text">By Design</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="image/S2.jpeg" style="width:100%">
+  <div class="text">Prototype</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="image/S3.jpeg" style="width:100%">
+  <div class="text">Assembly Part</div>
+</div>
+</div>
+
+ <!-- 
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+  <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>example</h2>
+          <h3>example</h3>
+        </div>
+        <span class="btn message">Email me</span>
+      </div>
+    </div>
+     Mulai bagian Budy Haryono -->
+    <div class="contact-form" id="C">
+      <div class="container">
+        <div class="text-content">
+          <h2 >For information and reservation, please contact us</h2>
+          <h3 >We happy for your reservations</h3>
+          <p></p>  
+        </div>
+
+        <div class="message-form">
+          <p>Email</p>
+          <input>
+          <p>Nama*</p>
+          <input>
+          <p>Pesan (Wajib Diisi)</p>
+          <textarea></textarea>
+          <p>*optional</p>
+          <span class="btn message">Email me</span>
+        </div>
+      </div>
+    </div>
+   
+        <!-- Akhir bagian Budy Haryono -->
+    <footer>
+      <div class="container">
+        <img src="image/logo.jpeg">
+        <p>Your Innovation Partner</p>
+      </div>
+    </footer>
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+  </body>
+</html>
