@@ -124,9 +124,10 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url('image/background.jpeg');
+  background-image: url('image/bg2.jpg');
   background-size: cover;
   color: white;
+  text-shadow: 1px 1px black;
   text-align: center;
 }
 
