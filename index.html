@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D INNOVA</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="image/logonew.png">
+        </div>
+        <!-- Tambahkan ikon menu disini -->
+        <div class="header-left"></div>
+        <div class="header-right">
+          <a href="#A">About Us</a>
+          <a href="#B">Our Serve</a>
+          <a href="#C">Contact Me</a>
+        </div>
+      </div>
+    </header>
+     <div class="top-wrapper" id="A">
+      <div class="container">
+        <h1>3D INNOVA</h1>
+        <h1>YOUR INNOVASION 3D PRINTER PARTNER</h1>
+        <p>We serve 3d print for your problem, please contact us for the solution</p>
+        <p>You can consutation for your projek, prototype, or making your product</p>
+        <div class="btn-wrapper">
+          <a href="http://wa.me/6285664530211" class="btn signup"><span class="fa fa-whatsapp"></span> Whatsapp Me</a>
+          <p>or</p>
+          <a href="https://www.facebook.com/Innova3DPrinter/" class="btn facebook"><span class="fa fa-facebook"></span> Like our Facebook</a>
+          <a href="https://www.instagram.com/invites/contact/?i=4yd9ajy756vc&utm_content=hkot6dc" class="btn twitter"><span class="fa fa-instagram"></span> Follow our Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper" id="B">
+      <div class="container">
+        <div class="heading">
+          <h2>We Serve:</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/2new.jpg">
+               <p>Designing</p>
+            </div>
+             <p class="text-contents">We can making design for you</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/1.jpeg">
+              <p>Printing Part by Design</p>
+            </div>
+            <p class="text-contents">We serve printing 3D for you, with variant quality</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/3.jpeg">
+              <p>Prototype</p>
+            </div>
+            <p class="text-contents">We serve 3D printed part for your prototype</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/4.jpeg">
+              <p>Assembly Part</p>
+            </div>
+            <p class="text-contents">We can make assembly part for yout project</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="image/S1.jpeg" style="width: 100%;">
+  <div class="text">By Design</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="image/S2.jpeg" style="width:100%">
+  <div class="text">Prototype</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="image/S3.jpeg" style="width:100%">
+  <div class="text">Assembly Part</div>
+</div>
+</div>
+
+ <!-- 
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+  <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>example</h2>
+          <h3>example</h3>
+        </div>
+        <span class="btn message">Email me</span>
+      </div>
+    </div> -->
+    <div class="contact-form" id="C">
+      <div class="container">
+        <div class="text-content">
+          <h2 >For information and reservation, please contact us</h2>
+          <h3 >We happy for your reservations</h3>
+          <p></p>  
+        </div>
+
+        <div class="message-form">
+         <form name="TestEncodingForm">
+          <p>Nama</p>
+          <input type="text" name="inputString" size="50" onblur="javascript:clearTextField();" vk_1819c="subscribed">
+          <p>Pesan</p>
+          <input type="text" name="inputString2" size="50" onblur="javascript:clearTextField();" vk_1819c="subscribed">
+          <p><a onclick="javascript:TestEncoding();" ><span class="btn message">Order Now</span></a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="confooter">
+        <img class="logofooter" src="image/logo.jpeg">
+        <p>Your Innovation Partner</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+    function TestEncoding()                   
+    {                   
+      var inputString=document.forms["TestEncodingForm"]["inputString"].value;
+      var inputString2=document.forms["TestEncodingForm"]["inputString2"].value;
+      var encodedInputString=escape(inputString);
+      var encodedInputString2=escape(inputString2);
+      encodedInputString=encodedInputString.replace("+", "%2B");
+      encodedInputString=encodedInputString.replace("/", "%2F");
+      encodedInputString2=encodedInputString2.replace("+", "%2B");
+      encodedInputString2=encodedInputString2.replace("/", "%2F");
+      //document.forms["TestEncodingForm"]["encodedInputString"].value=encodedInputString;
+      //document.forms["TestEncodingForm"]["encodedInputString2"].value=encodedInputString2;
+      window.location.replace("https://wa.me/6285664530211?text="+encodedInputString+"%0A"+encodedInputString2);
+    }
+
+
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+  </body>
+</html>
